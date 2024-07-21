@@ -1,11 +1,16 @@
 ///
-/// finance/common/price.hh
+/// common/price.hh
 ///
 /// @brief Represent a price with a currency
 ///
 
+#include "common/currency.hh"
+
 namespace finance
 {
-	// TODO:ryesson (update to add currency strong type)
-	using Price = double;
+	template <Currency currency>
+	struct Price : final
+	{
+		double price;
+	}
 }  // namespace finance

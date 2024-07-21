@@ -5,8 +5,20 @@ cc_library(
 	],
 	deps = [
 		"//common:price",
+		"//common:ticker",
 	],
 	visibility = [
 		"//options_trading:__subpackages__",
+	],
+)
+
+cc_library(
+	name = "stock",
+	hdrs = [
+		"stock.hh",
+	],
+	deps = [
+		"//common:price",
+		"//common:ticker",
 	],
 )

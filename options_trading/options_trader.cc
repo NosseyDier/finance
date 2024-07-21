@@ -1,5 +1,5 @@
 ///
-/// finance/options_trading/options_trader.cc
+/// options_trading/options_trader.cc
 ///
 /// @brief impl for options_trader
 ///

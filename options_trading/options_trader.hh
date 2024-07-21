@@ -1,5 +1,5 @@
 ///
-/// finance/options_trader.hpp
+/// options_trading/options_trader.hh
 ///
 ///  @brief takes in an OptionsMarket, returns zero, one, or many options to buy per cycle
 ///
